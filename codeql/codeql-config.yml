@@ -4,19 +4,6 @@ disable-default-queries: true
 queries:
   - uses: klintron-test-org/security-team-codeql-config/codeql/custom-query/deps.ql@main
 
-packs:
-    # > Java/Kotlin queries
-    - advanced-security/codeql-java
-    - advanced-security/codeql-java-extensions
-    # security-extended
-    - codeql/java-queries:codeql-suites/java-security-extended.qls
-
-    # JavaScript/TypeScript queries
-    - advanced-security/codeql-javascript
-    - advanced-security/codeql-javascript-extensions
-    # security-extended
-    - codeql/javascript-queries:codeql-suites/javascript-security-extended.qls
-
 paths-ignore:
     # JavaScript
     - 'node_modules'
