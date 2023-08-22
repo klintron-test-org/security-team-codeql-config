@@ -1,6 +1,9 @@
 name: "My CodeQL config"
 disable-default-queries: true
 
+queries:
+  - uses: ./custom-query/deps.ql
+
 packs:
     # > Java/Kotlin queries
     - advanced-security/codeql-java
