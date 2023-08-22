@@ -21,4 +21,4 @@ paths-ignore:
     # JavaScript Frameworks/Libraries
     - '**/bootstrap.js'
     - '**/boostrap.min.js'
-    - '**jquery-*.js'
+    - '**/jquery-*.js'
