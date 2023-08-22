@@ -20,5 +20,5 @@ paths-ignore:
     - '**/*.test.js'
     # JavaScript Frameworks/Libraries
     - '**/bootstrap.js'
-    - '**boostrap.min.js'
+    - '**/boostrap.min.js'
     - '**jquery-*.js'
