@@ -2,7 +2,7 @@ name: "My CodeQL config"
 disable-default-queries: true
 
 queries:
-  - uses: 
+  - uses: klintron-test-org/security-team-codeql-config/codeql/custom-query
 
 packs:
     # > Java/Kotlin queries
@@ -14,7 +14,6 @@ packs:
     # JavaScript/TypeScript queries
     - advanced-security/codeql-javascript
     - advanced-security/codeql-javascript-extensions
-    - klintron-test-org/security-team-codeql-config/codeql/custom-query
     # security-extended
     - codeql/javascript-queries:codeql-suites/javascript-security-extended.qls
 
