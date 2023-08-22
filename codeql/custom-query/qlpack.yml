@@ -2,5 +2,8 @@
 library: false
 name: custom-query
 version: 0.0.1
+groups: 
+  - javascript
 dependencies:
-  codeql/javascript-all: 0.5.1
+  codeql/javascript-all: ${workspace}
+warnOnImplicitThis: true
