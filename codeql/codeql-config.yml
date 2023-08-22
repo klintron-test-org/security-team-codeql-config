@@ -24,9 +24,9 @@ paths-ignore:
     - '**jquery-*.js'
 
 query-filters:
-- exclude
-    tags:
-        -/cwe/-029/
+    - exclude
+        tags:
+            -/cwe/-029/
     problems.severity:
         - warning
         - recommendation
