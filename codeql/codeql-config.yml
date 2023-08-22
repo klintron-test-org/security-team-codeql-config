@@ -14,7 +14,7 @@ packs:
     # JavaScript/TypeScript queries
     - advanced-security/codeql-javascript
     - advanced-security/codeql-javascript-extensions
-    - klintron-test-org/security-team-codeql-config/codeql/custom-query
+    - klintron-test-org/security-team-codeql-config/codeql/custom-query/
     # security-extended
     - codeql/javascript-queries:codeql-suites/javascript-security-extended.qls
 
