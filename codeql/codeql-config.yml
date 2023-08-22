@@ -1,8 +1,8 @@
 name: "My CodeQL config"
 disable-default-queries: true
 
-queries:
-  - uses: garbanzo-jones/security-team-codeql-config/codeql/custom-query/deps.ql@main
+# queries:
+#  - uses: garbanzo-jones/security-team-codeql-config/codeql/custom-query/deps.ql@main
 
 packs:
     # > Java/Kotlin queries
