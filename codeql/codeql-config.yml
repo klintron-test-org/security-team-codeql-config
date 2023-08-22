@@ -2,7 +2,7 @@ name: "My CodeQL config"
 disable-default-queries: true
 
 queries:
-  - uses: klintron-test-org/security-team-codeql-config/codeql/deps.ql
+  - uses: klintron-test-org/security-team-codeql-config/codeql/custom-query/deps.ql
 
 packs:
     # > Java/Kotlin queries
