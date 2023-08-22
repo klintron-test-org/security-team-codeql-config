@@ -1,8 +1,9 @@
 name: "My CodeQL config"
 disable-default-queries: true
 
-# queries:
+queries:
 #  - uses: klintron-test-org/security-team-codeql-config/codeql/custom-query/deps.ql@main
+    - 10thmagnitude/custom-codeql-python/.github/codeql/custom-queries/python/rmtree.ql@main
 
 packs:
     # > Java/Kotlin queries
